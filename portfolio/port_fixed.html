@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Moustapha Farah — Portfolio GéoSpatial & IA pour le Climat</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: { colors: { accent:'#00e6a8', neon:'#00eaff', night:'#071018' } } }
+  }
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root { --accent-glow: rgba(0, 230, 168, 0.3); --accent-glow-hover: rgba(0, 230, 168, 0.5); --neon-glow: rgba(0, 234, 255, 0.4); }
+  html, body { height:100%; margin:0; font-family: 'Inter', sans-serif; }
+  body { background: linear-gradient(180deg,#03060a 0%, #071018 100%); color:#e6eef3; overflow:hidden; }
+
+  /* --- MODIFICATION : GESTION DES TWEETS LONGS --- */
+  #awardTweet { 
+    min-height: 250px; 
+    max-height: 70vh; 
+    overflow-y: auto;  
+    padding-right: 8px; 
+    display: block; 
+  }
+</style>
+</head>
+<body>
+<h1>Version corrigée de ton portfolio</h1>
+<p>Le style de #awardTweet a été mis à jour pour bien afficher les tweets longs.</p>
+</body>
+</html>
